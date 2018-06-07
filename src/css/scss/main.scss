@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    #main {
+        height: 50px;
+        width: 50px;
+        background-color: #69B4F8;
+        border-radius: 50%;
+        position: fixed;
+        left: 3%;
+        top: 95%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        #icon {
+            height: 8px;
+            width: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+    }
+}
