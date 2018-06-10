@@ -28,3 +28,51 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#menu  {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: -103%;
+  left: 58%;  
+  transform: translate(-50%, -50%);
+}
+
+#menu ul {
+  height: 300px;
+  width: 150px;
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu ul li {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#menu ul li:hover {
+  cursor: pointer;
+}
+
+#menu ul li:hover::before {
+  content: '';
+  height: 4px;
+  width: 15px;
+  background-color: black;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: -20px;
+}
+
+#menu ul li:hover::after {
+  content: '';
+  height: 4px;
+  width: 15px;
+  background-color: black;
+  position: absolute;
+  margin-top: 18px;
+  margin-right: 5px;
+}
