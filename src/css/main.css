@@ -32,7 +32,7 @@ body {
   height: 0;
   width: 0;
   position: absolute;
-  top: -103%;
+  top: 13%;
   left: 58%;  
   transform: translate(-50%, -50%);
 }
@@ -44,6 +44,8 @@ body {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  opacity: 0;
+  visibility: hidden;
 }
 
 #menu ul li {
