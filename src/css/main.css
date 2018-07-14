@@ -7,7 +7,7 @@ body {
   height: 50px;
   width: 50px;
   background-color: #01579b;
-  /*border-radius: 50%;*/
+  border-radius: 50%;
   position: fixed;
   left: 3%;
   top: 95%;
@@ -50,7 +50,6 @@ body {
 
 #menu ul li {
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
   font-size: 30px;
   padding: 10px;
 }
@@ -63,7 +62,7 @@ body {
   content: '';
   height: 4px;
   width: 15px;
-  background-color: black;
+  background-color: white;
   position: absolute;
   margin-top: 18px;
   margin-left: -20px;
@@ -73,8 +72,23 @@ body {
   content: '';
   height: 4px;
   width: 15px;
-  background-color: black;
+  background-color: white;
   position: absolute;
   margin-top: 18px;
   margin-right: 5px;
+}
+
+.menu_link {
+  color: #fff;
+}
+
+#menu_circle_layer {
+  height: 0px;
+  width: 0px;
+  background-color:#92C7FB;
+  border-radius: 50%;
+  position: fixed;
+  left: 1.5%; 
+  top: 94%;
+  transform: translate(-50%, -50%);
 }
